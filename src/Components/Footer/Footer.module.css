@@ -1,0 +1,25 @@
+.container {
+    height: 130px;
+    width: 100%;
+    background-color: #01BF61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1 {
+    color: white;
+    margin-left: 680px;
+    font-size: 40px;
+}
+
+hr {
+    height: 35px;
+    color: white;
+}
+
+.title2 {
+    color: white;
+    margin-right: 582px;
+    font-size: 40px;
+}

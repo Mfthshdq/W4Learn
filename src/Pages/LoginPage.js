@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer/Footer";
 import Login from "../Components/Login/Login";
 import NavbarLogin from "../Components/NavbarLogin/NavbarLogin";
 
@@ -6,6 +7,7 @@ function LoginPage() {
         <div>
             <NavbarLogin />
             <Login />
+            <Footer />
         </div>
     )
 }
