@@ -9,6 +9,7 @@ import TutorialPage from './Pages/TutorialPage';
 import ReferencesPage from './Pages/ReferencesPage';
 import LoginPage from './Pages/LoginPage';
 import QuizPage from './Pages/QuizPage';
+import ProfilePage from './Pages/ProfilePage'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/references' element={<ReferencesPage />} />
       <Route path='/login' element={<LoginPage />} />
       <Route path='/quiz' element={<QuizPage />} />
+      <Route path='/profile' element={<ProfilePage />} />
     </Routes>
   );
 }

@@ -1,0 +1,123 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.text>h2 {
+    margin: -46px;
+    padding: -46px;
+}
+
+.search {
+    display: flex;
+    margin: 85px;
+    color: #9E9E9E;
+}
+
+.input {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #D9D9D9;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 16px;
+}
+
+.input>h3 {
+    margin-left: 16px;
+}
+
+.icon {
+    background-color: #8B8B8B;
+    height: 50px;
+    width: 60px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+
+
+.box {
+    background-color: #D9D9D9;
+    height: 500px;
+    width: 1550px;
+    margin-top: -24px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border-radius: 16px;
+}
+
+
+.kotak {
+    background-color: #9E9E9E;
+    height: 400px;
+    width: 400px;
+    justify-content: right;
+    border-radius: 16px;
+    margin: 24px;
+
+}
+
+.title {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.writing {
+    margin: 0px;
+    padding: 0px;
+}
+
+.writing>h1 {
+    font-size: 9rem;
+    margin: -35px;
+    padding: -35px;
+}
+
+.click {
+    background-color: #01BF61;
+    height: 50px;
+    width: 150px;
+    border-radius: 24px;
+    margin-top: 8px;
+}
+
+.tap {
+    background-color: #01BF61;
+    height: 50px;
+    width: 150px;
+    margin-top: 8px;
+    border-radius: 24px;
+}
+
+.kotak>img {
+    height: 400px;
+    width: 400px;
+}
+
+.icon>img {
+    height: 50px;
+    width: 60px;
+}
+
+.color {
+    color: #01BF61;
+}
