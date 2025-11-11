@@ -10,6 +10,9 @@ import ReferencesPage from './Pages/ReferencesPage';
 import LoginPage from './Pages/LoginPage';
 import QuizPage from './Pages/QuizPage';
 import ProfilePage from './Pages/ProfilePage'
+import ReferencesCssPage from './Pages/ReferencesCssPage';
+import ReferencesReactPage from './Pages/ReferencesReactPage';
+import ReferencesHtmlPage from './Pages/ReferencesHtmlPage';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
       <Route path='/login' element={<LoginPage />} />
       <Route path='/quiz' element={<QuizPage />} />
       <Route path='/profile' element={<ProfilePage />} />
+      <Route path='/references-css' element={<ReferencesCssPage />} />
+      <Route path='/references-react' element={<ReferencesReactPage />} />
+      <Route path='/references-html' element={<ReferencesHtmlPage />} />
     </Routes>
   );
 }

@@ -3,21 +3,31 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 40px;
 }
 
 .text {
     text-align: center;
     font-size: 30px;
+    margin-top: 48px;
+    font-family: poppins, sans-serif;
+}
 
+.text>h1 {
+    font-size: 5rem;
 }
 
 .text>h2 {
-    margin: -46px;
-    padding: -46px;
+    font-size: 2rem;
+    margin-top: -80px;
+    margin-bottom: -80px;
 }
 
 .search {
+    margin-bottom: -140px;
+}
+
+.form {
     display: flex;
     margin: 85px;
     color: #9E9E9E;
@@ -33,43 +43,60 @@
     align-items: center;
     justify-content: left;
     margin-left: 16px;
+    border: none;
 }
 
-.input>h3 {
-    margin-left: 16px;
+input::placeholder {
+    padding-left: 16px;
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+    color: #7A7A7A;
 }
 
 .icon {
-    background-color: #8B8B8B;
-    height: 50px;
+    background-color: #D9D9D9;
+    height: 52px;
     width: 60px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-
+    transition: 0.2s;
 }
 
+.icon:hover {
+    cursor: pointer;
+    background-color: #C0C0C0;
+}
 
+.icon>img {
+    height: 60px;
+    width: 50px;
+}
+
+.first {
+    margin-top: 80px;
+}
+
+.end {
+    margin-bottom: 80px;
+}
 
 .box {
     background-color: #D9D9D9;
     height: 500px;
-    width: 1550px;
-    margin-top: -24px;
-    justify-content: space-around;
-    align-items: center;
+    width: 1500px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     border-radius: 16px;
 }
 
-
-.kotak {
+.photo {
     background-color: #9E9E9E;
     height: 400px;
     width: 400px;
     justify-content: right;
     border-radius: 16px;
     margin: 24px;
-
 }
 
 .title {
@@ -77,13 +104,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-
-
-}
-
-.writing {
-    margin: 0px;
-    padding: 0px;
 }
 
 .writing>h1 {
@@ -95,27 +115,28 @@
 .click {
     background-color: #01BF61;
     height: 50px;
-    width: 150px;
-    border-radius: 24px;
+    width: 180px;
+    border-radius: 50px;
     margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tap {
     background-color: #01BF61;
     height: 50px;
-    width: 150px;
+    width: 180px;
     margin-top: 8px;
-    border-radius: 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.kotak>img {
+.photo>img {
     height: 400px;
     width: 400px;
-}
-
-.icon>img {
-    height: 50px;
-    width: 60px;
 }
 
 .color {

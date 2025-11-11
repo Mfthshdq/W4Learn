@@ -1,15 +1,15 @@
 import Footer from "../Components/Footer/Footer";
 import NavbarOnOthrPage from "../Components/NavbarOnOthrPage/NavbarOnOthrPage";
-import Tutorial from "../Components/Tutorial/Tutorial";
+import ReferencesHtml from "../Components/ReferencesHtml/ReferencesHtml";
 
-function TutorialPage() {
+function ReferencesHtmlPage() {
     return (
         <div>
             <NavbarOnOthrPage />
-            <Tutorial />
+            <ReferencesHtml />
             <Footer />
         </div>
     )
 }
 
-export default TutorialPage;
+export default ReferencesHtmlPage;

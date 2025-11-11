@@ -1,6 +1,33 @@
+import { Link } from "react-router-dom";
+import style from "./Tutorial.module.css";
+
 function Tutorial() {
     return (
-        <div>Kiw Cewek</div>
+        <div className={style.container}>
+            <div className={style.title}>
+                <h1>Tutorial</h1>
+            </div>
+            <div className={style.options}>
+                <div className={style.option}>
+                    <img src="image/html.jpg" alt="html" />
+                    <Link to={'/tutorial-html'} style={{ textDecoration: 'none' }} className={style.btn}>
+                        <h4>Learn</h4>
+                    </Link>
+                </div>
+                <div className={style.option}>
+                    <img src="image/css.jpg" alt="html" />
+                    <Link to={'/tutorial-css'} style={{ textDecoration: 'none' }} className={style.btn}>
+                        <h4>Learn</h4>
+                    </Link>
+                </div>
+                <div className={style.option}>
+                    <img src="image/react.png" alt="html" />
+                    <Link to={'/tutorial-react'} style={{ textDecoration: 'none' }} className={style.btn}>
+                        <h4>Learn</h4>
+                    </Link>
+                </div>
+            </div>
+        </div>
     )
 }
 

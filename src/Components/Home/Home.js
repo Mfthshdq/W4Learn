@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./Home.module.css"
 
 
@@ -10,32 +11,31 @@ function Home() {
             </div>
 
             <div className={style.search}>
-                <div className={style.input}>
-                    <h3>Search</h3>
-                </div>
-                <div className={style.icon}>
-                    <img src="/image/icon.png"/>
-                </div>
+                <form className={style.form}>
+                    <input type="text" placeholder="Search for tutorials, references, and more..." className={style.input} />
+
+                    <img src="/image/icon.png" alt="search icon" className={style.icon} />
+                </form>
             </div>
 
-            <div className={style.box}>
+            <div className={`${style.box} ${style.first}`}>
                 <div className={style.title}>
 
                     <div className={style.writing}>
-                        <h1>React</h1>
+                        <h1>REACT</h1>
                         <h2>The language for building web pages.</h2>
                     </div>
                     <div className={style.click}>
-                        <p><b>Learn React</b></p>
+                        <Link to="/tutorial-react" style={{ textDecoration: 'none', color: 'white', fontWeight: 'bold', fontFamily: 'poppins, sans-serif' }}><p>Learn REACT</p></Link>
                     </div>
                     <div className={style.tap}>
-                        <p><b>React References</b></p>
+                        <Link to="/references-react" style={{ textDecoration: 'none' , color: 'white', fontWeight: 'bold', fontFamily: 'poppins, sans-serif' }}><p>REACT References</p></Link>
                     </div>
-                    
+
                 </div>
 
-                <div className={style.kotak}>
-                    <img src="/image/react.png"/>
+                <div className={style.photo}>
+                    <img src="/image/react.png" alt="react" />
                 </div>
 
             </div>
@@ -48,21 +48,21 @@ function Home() {
                         <h2>The language for building web pages.</h2>
                     </div>
                     <div className={style.click}>
-                        <p><b>Learn HTML</b></p>
+                        <Link to="/tutorial-html" style={{ textDecoration: 'none' , color: 'white', fontWeight: 'bold', fontFamily: 'poppins, sans-serif' }}><p>Learn HTML</p></Link>
                     </div>
                     <div className={style.tap}>
-                        <p><b>HTML References</b></p>
+                        <Link to="/references-html" style={{ textDecoration: 'none', color: 'white', fontWeight: 'bold', fontFamily: 'poppins, sans-serif' }}><p>HTML References</p></Link>
                     </div>
-                    
+
                 </div>
 
-                <div className={style.kotak}>
-                    <img src="/image/html.jpg"/>
+                <div className={style.photo}>
+                    <img src="/image/html.jpg" alt="html" />
                 </div>
 
             </div>
 
-            <div className={style.box}>
+            <div className={`${style.box} ${style.end}`}>
                 <div className={style.title}>
 
                     <div className={style.writing}>
@@ -70,16 +70,16 @@ function Home() {
                         <h2>The language for building web pages.</h2>
                     </div>
                     <div className={style.click}>
-                        <p><b>Learn CSS</b></p>
+                        <Link to="/tutorial-css" style={{ textDecoration: 'none', color: 'white', fontWeight: 'bold', fontFamily: 'poppins, sans-serif' }}><p>Learn CSS</p></Link>
                     </div>
                     <div className={style.tap}>
-                        <p><b>CSS References</b></p>
+                        <Link to="/references-css" style={{ textDecoration: 'none', color: 'white', fontWeight: 'bold', fontFamily: 'poppins, sans-serif' }}><p>CSS References</p></Link>
                     </div>
-                    
+
                 </div>
 
-                <div className={style.kotak}>
-                    <img src="/image/css.jpg"/>
+                <div className={style.photo}>
+                    <img src="/image/css.jpg" alt="css" />
                 </div>
 
             </div>

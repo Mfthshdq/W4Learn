@@ -6,18 +6,15 @@
     margin-top: 50px;
 }
 
-
-
-
 .atas {
     height: 330px;
     width: 1600px;
     background-color: #D9D9D9;
     margin-top: 32px;
-    border-radius:16px;
+    border-radius: 16px;
 }
 
-.poto{
+.poto {
     height: 250px;
     width: 250px;
     background-color: #01BF61;
@@ -43,6 +40,7 @@
     margin-left: 350px;
     border-radius: 16px;
 }
+
 .id {
     height: 75px;
     width: 980px;
@@ -65,8 +63,9 @@
     height: 100px;
     width: 100px;
     margin-top: 25px;
-    margin-left:25px;
+    margin-left: 25px;
 }
+
 .bawah {
     height: 500px;
     width: 1600px;
@@ -75,8 +74,6 @@
     border-radius: 16px;
     justify-content: left;
     align-items: left;
-    
-    
 }
 
 .level {
@@ -86,7 +83,6 @@
     margin-top: 40px;
     margin-left: 78px;
     border-radius: 16px;
-    
 }
 
 .approve {
@@ -96,8 +92,4 @@
     margin-top: 40px;
     border-radius: 16px;
     margin-left: 1300px;
-    
-   
 }
-
-
