@@ -1,15 +1,15 @@
 import Footer from "../Components/Footer/Footer";
 import NavbarOnOthrPage from "../Components/NavbarOnOthrPage/NavbarOnOthrPage";
-import ReferencesReact from "../Components/ReferencesReact/ReferencesReact";
+import Quizz from "../Components/Quizz/Quizz";
 
-function ReferencesReactPage() {
+function QuizzPage() {
     return (
         <div>
             <NavbarOnOthrPage />
-            <ReferencesReact />
+            <Quizz />
             <Footer />
         </div>
     )
 }
 
-export default ReferencesReactPage;
+export default QuizzPage;

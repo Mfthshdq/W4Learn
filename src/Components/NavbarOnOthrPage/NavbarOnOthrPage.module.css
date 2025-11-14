@@ -1,6 +1,8 @@
 .navbar_container {
     width: 100%;
     font-family: Arial, sans-serif;
+    position: sticky;
+    top: 0;
 }
 
 .navbar_top {
