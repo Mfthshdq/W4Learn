@@ -7,55 +7,32 @@
 }
 
 .atas {
-    height: 330px;
     width: 1600px;
     background-color: #D9D9D9;
-    margin-top: 32px;
+    padding: 32px;
     border-radius: 16px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+
+    flex-grow: 1;
 }
 
 .poto {
     height: 250px;
     width: 250px;
     background-color: #01BF61;
-    margin-top: 43px;
-    margin-left: 78px;
     border-radius: 16px;
 }
 
-.name {
-    height: 75px;
-    width: 1200px;
-    background-color: #01BF61;
-    margin-top: -250px;
-    margin-left: 350px;
-    border-radius: 16px;
-}
-
-.alamat {
-    height: 75px;
-    width: 980px;
-    background-color: #01BF61;
-    margin-top: 16px;
-    margin-left: 350px;
-    border-radius: 16px;
-}
-
-.id {
-    height: 75px;
-    width: 980px;
-    background-color: #01BF61;
-    margin-top: 10px;
-    margin-left: 350px;
-    border-radius: 16px;
-}
 
 .bulat {
     height: 150px;
     width: 150px;
     background-color: #9F9F9F;
-    margin-top: -150px;
-    margin-left: 1380px;
     border-radius: 100px;
 }
 
@@ -67,29 +44,46 @@
 }
 
 .bawah {
-    height: 500px;
-    width: 1600px;
-    background-color: #D9D9D9;
+
+    background-color: #9F9F9F;
     margin-top: 16px;
     border-radius: 16px;
     justify-content: left;
     align-items: left;
 }
 
-.level {
-    height: 75px;
-    width: 1200px;
-    background-color: #01BF61;
-    margin-top: 40px;
-    margin-left: 78px;
+.tutorial {
+    height: 330px;
+    width: 1537px;
+    background-color: #D9D9D9;
+    margin: 27px;
+    display: flex;
     border-radius: 16px;
 }
 
-.approve {
-    height: 75px;
-    width: 150px;
+.log {
+
+    width: 650px;
     background-color: #01BF61;
-    margin-top: 40px;
+    margin: 16px;
     border-radius: 16px;
-    margin-left: 1300px;
 }
+
+.log>img {
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+}
+
+.persen {
+    width: 300px;
+    background-color: #01BF61;
+    margin: 16px;
+    border-radius: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
