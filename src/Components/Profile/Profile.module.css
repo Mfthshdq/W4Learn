@@ -17,7 +17,6 @@
 }
 
 .name {
-
     flex-grow: 1;
 }
 
@@ -44,7 +43,6 @@
 }
 
 .bawah {
-
     background-color: #9F9F9F;
     margin-top: 16px;
     border-radius: 16px;
@@ -62,7 +60,6 @@
 }
 
 .log {
-
     width: 650px;
     background-color: #01BF61;
     margin: 16px;
@@ -75,15 +72,19 @@
     border-radius: 16px;
 }
 
-.persen {
-    width: 300px;
-    background-color: #01BF61;
+.container_bar {
+    width: 150px;
+    background-color: #9F9F9F;
     margin: 16px;
     border-radius: 16px;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: end;
     flex-direction: column;
-    
 }
 
+.proggress_bar {
+    width: 150px;
+    background-color: #01BF61;
+    border-radius: 0 0 16px 16px;
+}

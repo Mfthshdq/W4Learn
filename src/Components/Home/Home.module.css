@@ -121,6 +121,12 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s;
+}
+
+.click:hover {
+    cursor: pointer;
+    background-color: #028f45;
 }
 
 .tap {
@@ -132,6 +138,12 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s;
+}
+
+.tap:hover {
+    cursor: pointer;
+    background-color: #028f45;
 }
 
 .photo>img {
