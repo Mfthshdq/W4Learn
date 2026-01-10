@@ -1,4 +1,8 @@
 .container {
+    * {
+        margin: 0;
+        padding: 0;
+    }
     justify-content: center;
     align-items: center;
     display: flex;
@@ -19,12 +23,6 @@
 
 .text>h2 {
     font-size: 2rem;
-    margin-top: -80px;
-    margin-bottom: -80px;
-}
-
-.search {
-    margin-bottom: -140px;
 }
 
 .form {
@@ -55,7 +53,7 @@ input::placeholder {
 
 .icon {
     background-color: #D9D9D9;
-    height: 52px;
+    height: 50px;
     width: 60px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
@@ -108,8 +106,6 @@ input::placeholder {
 
 .writing>h1 {
     font-size: 9rem;
-    margin: -35px;
-    padding: -35px;
 }
 
 .click {

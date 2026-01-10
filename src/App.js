@@ -7,7 +7,7 @@ import TutorialReactPage from './Pages/TutorialReactPage';
 import TutorialPage from './Pages/TutorialPage';
 import ReferencesPage from './Pages/ReferencesPage';
 import LoginPage from './Pages/LoginPage';
-import ProfilePage from './Pages/ProfilePage'
+import ProfilePage from './Pages/ProfilePage';
 import ReferencesCssPage from './Pages/ReferencesCssPage';
 import ReferencesReactPage from './Pages/ReferencesReactPage';
 import ReferencesHtmlPage from './Pages/ReferencesHtmlPage';
