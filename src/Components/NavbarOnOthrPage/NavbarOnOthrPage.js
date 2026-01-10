@@ -15,21 +15,15 @@ function NavbarOnOthrPage() {
                 </div>
 
                 <div className={style.navbar_items}>
-                    <p className={style.navbar_btn}>
-                        <Link to={'/'} style={{ textDecoration: 'none' }} className={style.nav_item}>
-                            <h4>Home</h4>
-                        </Link>
-                    </p>
-                    <p className={style.navbar_btn}>
-                        <Link to={'/tutorial'} style={{ textDecoration: 'none' }} className={style.nav_item}>
-                            <h4>Tutorial</h4>
-                        </Link>
-                    </p>
-                    <p className={style.navbar_btn}>
-                        <Link to={'/references'} style={{ textDecoration: 'none' }} className={style.nav_item}>
-                            <h4>References</h4>
-                        </Link>
-                    </p>
+                    <Link to={'/'} style={{ textDecoration: 'none' }} className={`${style.nav_item} ${style.navbar_btn}`}>
+                        <h4>Home</h4>
+                    </Link>
+                     <Link to={'/tutorial'} style={{ textDecoration: 'none' }} className={`${style.nav_item} ${style.navbar_btn}`}>
+                        <h4>Tutorial</h4>
+                    </Link>
+                    <Link to={'/references'} style={{ textDecoration: 'none' }} className={`${style.nav_item} ${style.navbar_btn}`}>
+                        <h4>References</h4>
+                    </Link>
                 </div>
 
             </div>

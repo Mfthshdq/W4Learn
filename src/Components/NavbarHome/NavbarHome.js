@@ -15,21 +15,15 @@ function NavbarHome() {
                 </div>
 
                 <div className={style.navbar_items}>
-                    <p className={style.navbar_btn}>
-                        <Link to={'/tutorial'} style={{ textDecoration: 'none' }} className={style.nav_item}>
-                            <h4>Tutorial</h4>
-                        </Link>
-                    </p>
-                    <p className={style.navbar_btn}>
-                        <Link to={'/references'} style={{ textDecoration: 'none' }} className={style.nav_item}>
-                            <h4>References</h4>
-                        </Link>
-                    </p>
-                    <p className={style.navbar_login}>
-                        <Link to={'/login'} style={{ textDecoration: 'none' }} className={style.nav_item}>
-                            <h4>Login</h4>
-                        </Link>
-                    </p>
+                    <Link to={'/tutorial'} style={{ textDecoration: 'none' }} className={`${style.nav_item} ${style.navbar_btn}`}>
+                        <h4>Tutorial</h4>
+                    </Link>
+                    <Link to={'/references'} style={{ textDecoration: 'none' }} className={`${style.nav_item} ${style.navbar_btn}`}>
+                        <h4>References</h4>
+                    </Link>
+                    <Link to={'/login'} style={{ textDecoration: 'none' }} className={`${style.nav_item} ${style.navbar_login}`}>
+                        <h4>Login</h4>
+                    </Link>
                 </div>
 
             </div>

@@ -13,16 +13,11 @@ function NavbarLogin() {
                     />
                 </div>
 
-                <div className={style.navbar_items}>
-                    <p className={style.navbar_login}>
-                        <Link to={'/'} style={{ textDecoration: 'none' }} className={style.nav_item}>
-                            <h4>Home</h4>
-                        </Link>
-                    </p>
-                </div>
-
+                <Link to={'/'} className={`${style.nav_item} ${style.navbar_home}`}>
+                    <h4>Home</h4>
+                </Link>
             </div>
-        </div>
+        </div >
     )
 }
 

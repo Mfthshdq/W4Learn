@@ -21,26 +21,10 @@
 
 .nav_item {
     color: white;
+    text-decoration: none;
 }
 
-.navbar_btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #00b76c;
-    height: 30px;
-    width: 180px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.navbar_btn:hover {
-    background-color: #00a45f;
-}
-
-.navbar_login {
+.navbar_home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,9 +35,8 @@
     width: 100px;
     cursor: pointer;
     transition: 0.2s;
-    text-decoration: none;
 }
 
-.navbar_login:hover {
+.navbar_home:hover {
     background-color: #009e56;
 }
